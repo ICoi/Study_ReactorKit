@@ -3,18 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322A50A526BE99A7003F07A8 /* UserViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A50A426BE99A7003F07A8 /* UserViewReactor.swift */; };
+		323BCD0B26BE9E2800DB5C42 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 323BCD0A26BE9E2800DB5C42 /* RxCocoa */; };
+		323BCD0D26BE9E2800DB5C42 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 323BCD0C26BE9E2800DB5C42 /* RxSwift */; };
 		3261EBBA26BE8E5300586FD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261EBB926BE8E5300586FD6 /* AppDelegate.swift */; };
 		3261EBBC26BE8E5300586FD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261EBBB26BE8E5300586FD6 /* SceneDelegate.swift */; };
-		3261EBBE26BE8E5300586FD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261EBBD26BE8E5300586FD6 /* ViewController.swift */; };
+		3261EBBE26BE8E5300586FD6 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261EBBD26BE8E5300586FD6 /* UserViewController.swift */; };
 		3261EBC126BE8E5300586FD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3261EBBF26BE8E5300586FD6 /* Main.storyboard */; };
 		3261EBC326BE8E5400586FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3261EBC226BE8E5400586FD6 /* Assets.xcassets */; };
 		3261EBC626BE8E5400586FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3261EBC426BE8E5400586FD6 /* LaunchScreen.storyboard */; };
 		3261EBD126BE8E5500586FD6 /* Study_ReactorKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261EBD026BE8E5500586FD6 /* Study_ReactorKitTests.swift */; };
 		3261EBDC26BE8E5500586FD6 /* Study_ReactorKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261EBDB26BE8E5500586FD6 /* Study_ReactorKitUITests.swift */; };
+		3261EBEE26BE8FED00586FD6 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3261EBED26BE8FED00586FD6 /* ReactorKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		322A50A426BE99A7003F07A8 /* UserViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewReactor.swift; sourceTree = "<group>"; };
 		3261EBB626BE8E5300586FD6 /* Study_ReactorKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study_ReactorKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3261EBB926BE8E5300586FD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3261EBBB26BE8E5300586FD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3261EBBD26BE8E5300586FD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3261EBBD26BE8E5300586FD6 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		3261EBC026BE8E5300586FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3261EBC226BE8E5400586FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3261EBC526BE8E5400586FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323BCD0D26BE9E2800DB5C42 /* RxSwift in Frameworks */,
+				323BCD0B26BE9E2800DB5C42 /* RxCocoa in Frameworks */,
+				3261EBEE26BE8FED00586FD6 /* ReactorKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		323BCD0926BE9E2800DB5C42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3261EBAD26BE8E5300586FD6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +98,7 @@
 				3261EBCF26BE8E5500586FD6 /* Study_ReactorKitTests */,
 				3261EBDA26BE8E5500586FD6 /* Study_ReactorKitUITests */,
 				3261EBB726BE8E5300586FD6 /* Products */,
+				323BCD0926BE9E2800DB5C42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +117,12 @@
 			children = (
 				3261EBB926BE8E5300586FD6 /* AppDelegate.swift */,
 				3261EBBB26BE8E5300586FD6 /* SceneDelegate.swift */,
-				3261EBBD26BE8E5300586FD6 /* ViewController.swift */,
+				3261EBBD26BE8E5300586FD6 /* UserViewController.swift */,
 				3261EBBF26BE8E5300586FD6 /* Main.storyboard */,
 				3261EBC226BE8E5400586FD6 /* Assets.xcassets */,
 				3261EBC426BE8E5400586FD6 /* LaunchScreen.storyboard */,
 				3261EBC726BE8E5400586FD6 /* Info.plist */,
+				322A50A426BE99A7003F07A8 /* UserViewReactor.swift */,
 			);
 			path = Study_ReactorKit;
 			sourceTree = "<group>";
@@ -144,6 +161,11 @@
 			dependencies = (
 			);
 			name = Study_ReactorKit;
+			packageProductDependencies = (
+				3261EBED26BE8FED00586FD6 /* ReactorKit */,
+				323BCD0A26BE9E2800DB5C42 /* RxCocoa */,
+				323BCD0C26BE9E2800DB5C42 /* RxSwift */,
+			);
 			productName = Study_ReactorKit;
 			productReference = 3261EBB626BE8E5300586FD6 /* Study_ReactorKit.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +237,10 @@
 				Base,
 			);
 			mainGroup = 3261EBAD26BE8E5300586FD6;
+			packageReferences = (
+				3261EBEC26BE8FED00586FD6 /* XCRemoteSwiftPackageReference "ReactorKit" */,
+				3219563426BE9CEC00D100E0 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 3261EBB726BE8E5300586FD6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3261EBBE26BE8E5300586FD6 /* ViewController.swift in Sources */,
+				3261EBBE26BE8E5300586FD6 /* UserViewController.swift in Sources */,
 				3261EBBA26BE8E5300586FD6 /* AppDelegate.swift in Sources */,
+				322A50A526BE99A7003F07A8 /* UserViewReactor.swift in Sources */,
 				3261EBBC26BE8E5300586FD6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,12 +464,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE546VX675;
 				INFOPLIST_FILE = Study_ReactorKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.daun.joung.Study-ReactorKit";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daun.joung.dev.Study-ReactorKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,12 +483,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE546VX675;
 				INFOPLIST_FILE = Study_ReactorKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.daun.joung.Study-ReactorKit";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daun.joung.dev.Study-ReactorKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -587,6 +616,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3219563426BE9CEC00D100E0 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+		3261EBEC26BE8FED00586FD6 /* XCRemoteSwiftPackageReference "ReactorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactorKit/ReactorKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		323BCD0A26BE9E2800DB5C42 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3219563426BE9CEC00D100E0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		323BCD0C26BE9E2800DB5C42 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3219563426BE9CEC00D100E0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		3261EBED26BE8FED00586FD6 /* ReactorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3261EBEC26BE8FED00586FD6 /* XCRemoteSwiftPackageReference "ReactorKit" */;
+			productName = ReactorKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3261EBAE26BE8E5300586FD6 /* Project object */;
 }
