@@ -7,22 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9C054D67-EF4B-4286-91D5-A4735064B44A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Study_ReactorKit/UserViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "bind(reactor:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "62A9A3DC-1EA4-4EB0-857F-3C8F12F9923B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -34,6 +18,38 @@
             endingLineNumber = "41"
             landmarkName = "mutate(action:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "62A9A3DC-1EA4-4EB0-857F-3C8F12F9923B - 15e8ead4d9154e15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Study_ReactorKit.UserViewReactor.mutate(action: Study_ReactorKit.UserViewReactor.Action) -&gt; RxSwift.Observable&lt;Study_ReactorKit.UserViewReactor.Mutation&gt;"
+                  moduleName = "Study_ReactorKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daunjoung/Documents/GitRepository/Study_ReactorKit/Study_ReactorKit/UserViewReactor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "62A9A3DC-1EA4-4EB0-857F-3C8F12F9923B - 1537a89603e60d6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Study_ReactorKitTests.UserViewReactor.mutate(action: Study_ReactorKitTests.UserViewReactor.Action) -&gt; RxSwift.Observable&lt;Study_ReactorKitTests.UserViewReactor.Mutation&gt;"
+                  moduleName = "Study_ReactorKitTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daunjoung/Documents/GitRepository/Study_ReactorKit/Study_ReactorKit/UserViewReactor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -50,22 +66,134 @@
             endingLineNumber = "52"
             landmarkName = "reduce(state:mutation:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DD84BE6C-A813-4575-90C8-EF74A8E40E03 - 5a9b1267a23d30d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Study_ReactorKit.UserViewReactor.reduce(state: Study_ReactorKit.UserViewReactor.State, mutation: Study_ReactorKit.UserViewReactor.Mutation) -&gt; Study_ReactorKit.UserViewReactor.State"
+                  moduleName = "Study_ReactorKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daunjoung/Documents/GitRepository/Study_ReactorKit/Study_ReactorKit/UserViewReactor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "DD84BE6C-A813-4575-90C8-EF74A8E40E03 - 9411c90218a460b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Study_ReactorKitTests.UserViewReactor.reduce(state: Study_ReactorKitTests.UserViewReactor.State, mutation: Study_ReactorKitTests.UserViewReactor.Mutation) -&gt; Study_ReactorKitTests.UserViewReactor.State"
+                  moduleName = "Study_ReactorKitTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daunjoung/Documents/GitRepository/Study_ReactorKit/Study_ReactorKit/UserViewReactor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "FE6CE62D-F48E-4FD6-BDB7-9BFBA0AAA41D"
+            uuid = "4E691044-6AED-4E70-A2DD-222835643D3C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Study_ReactorKit/UserViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "bind(reactor:)"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4E691044-6AED-4E70-A2DD-222835643D3C - b89832f89e29bbe7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Study_ReactorKit.UserViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Study_ReactorKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daunjoung/Documents/GitRepository/Study_ReactorKit/Study_ReactorKit/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "4E691044-6AED-4E70-A2DD-222835643D3C - 334f779f8cd49717"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Study_ReactorKitTests.UserViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Study_ReactorKitTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daunjoung/Documents/GitRepository/Study_ReactorKit/Study_ReactorKit/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E292762-790E-44EB-A0E7-EAB56F5E5B15"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Study_ReactorKit/UserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6E292762-790E-44EB-A0E7-EAB56F5E5B15 - 638a7636313daecc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Study_ReactorKit.UserViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "Study_ReactorKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daunjoung/Documents/GitRepository/Study_ReactorKit/Study_ReactorKit/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "6E292762-790E-44EB-A0E7-EAB56F5E5B15 - 80edbb0ef9f3d39c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Study_ReactorKitTests.UserViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "Study_ReactorKitTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daunjoung/Documents/GitRepository/Study_ReactorKit/Study_ReactorKit/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

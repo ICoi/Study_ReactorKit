@@ -10,6 +10,10 @@
 		322A50A526BE99A7003F07A8 /* UserViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A50A426BE99A7003F07A8 /* UserViewReactor.swift */; };
 		323BCD0B26BE9E2800DB5C42 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 323BCD0A26BE9E2800DB5C42 /* RxCocoa */; };
 		323BCD0D26BE9E2800DB5C42 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 323BCD0C26BE9E2800DB5C42 /* RxSwift */; };
+		323BCD1226BEAF4600DB5C42 /* ViewUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323BCD1126BEAF4600DB5C42 /* ViewUnitTest.swift */; };
+		323BCD1726BEAF5200DB5C42 /* ReactorUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323BCD1626BEAF5200DB5C42 /* ReactorUnitTest.swift */; };
+		323BCD1B26BEB16A00DB5C42 /* UserViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A50A426BE99A7003F07A8 /* UserViewReactor.swift */; };
+		323BCD1F26BEB16D00DB5C42 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261EBBD26BE8E5300586FD6 /* UserViewController.swift */; };
 		3261EBBA26BE8E5300586FD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261EBB926BE8E5300586FD6 /* AppDelegate.swift */; };
 		3261EBBC26BE8E5300586FD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261EBBB26BE8E5300586FD6 /* SceneDelegate.swift */; };
 		3261EBBE26BE8E5300586FD6 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261EBBD26BE8E5300586FD6 /* UserViewController.swift */; };
@@ -40,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		322A50A426BE99A7003F07A8 /* UserViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewReactor.swift; sourceTree = "<group>"; };
+		323BCD1126BEAF4600DB5C42 /* ViewUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUnitTest.swift; sourceTree = "<group>"; };
+		323BCD1626BEAF5200DB5C42 /* ReactorUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorUnitTest.swift; sourceTree = "<group>"; };
 		3261EBB626BE8E5300586FD6 /* Study_ReactorKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study_ReactorKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3261EBB926BE8E5300586FD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3261EBBB26BE8E5300586FD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +138,8 @@
 			children = (
 				3261EBD026BE8E5500586FD6 /* Study_ReactorKitTests.swift */,
 				3261EBD226BE8E5500586FD6 /* Info.plist */,
+				323BCD1126BEAF4600DB5C42 /* ViewUnitTest.swift */,
+				323BCD1626BEAF5200DB5C42 /* ReactorUnitTest.swift */,
 			);
 			path = Study_ReactorKitTests;
 			sourceTree = "<group>";
@@ -295,6 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323BCD1226BEAF4600DB5C42 /* ViewUnitTest.swift in Sources */,
+				323BCD1F26BEB16D00DB5C42 /* UserViewController.swift in Sources */,
+				323BCD1726BEAF5200DB5C42 /* ReactorUnitTest.swift in Sources */,
+				323BCD1B26BEB16A00DB5C42 /* UserViewReactor.swift in Sources */,
 				3261EBD126BE8E5500586FD6 /* Study_ReactorKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +514,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE546VX675;
 				INFOPLIST_FILE = Study_ReactorKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -523,6 +536,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE546VX675;
 				INFOPLIST_FILE = Study_ReactorKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -543,6 +557,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE546VX675;
 				INFOPLIST_FILE = Study_ReactorKitUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -562,6 +577,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE546VX675;
 				INFOPLIST_FILE = Study_ReactorKitUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
